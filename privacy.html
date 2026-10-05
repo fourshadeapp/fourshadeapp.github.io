@@ -158,9 +158,7 @@ section[lang].on{display:block}
   var langs=['en','pt','es','fr'];
   function pick(){
     var h=(location.hash||'').slice(1);
-    if(langs.indexOf(h)>=0) return h;
-    var n=(navigator.language||'en').slice(0,2).toLowerCase();
-    return langs.indexOf(n)>=0?n:'en';
+    return langs.indexOf(h)>=0?h:'en';
   }
   function show(l){
     document.querySelectorAll('section[lang]').forEach(function(s){s.classList.toggle('on',s.getAttribute('lang').slice(0,2)===l)});

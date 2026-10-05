@@ -8,8 +8,8 @@ Páginas públicas da app **Fourshade** para iPhone, servidas pelo GitHub Pages 
 | Suporte | https://fourshadeapp.github.io/ |
 | Política de privacidade | https://fourshadeapp.github.io/privacy.html |
 
-As duas páginas estão em inglês, português, espanhol e francês. Abrem na língua do
-dispositivo; `#en`, `#pt`, `#es` ou `#fr` no fim do URL escolhem uma língua.
+As duas páginas estão em inglês, português, espanhol e francês. Abrem em inglês;
+`#pt`, `#es` ou `#fr` no fim do URL escolhem outra língua.
 
 ## Publicar
 
